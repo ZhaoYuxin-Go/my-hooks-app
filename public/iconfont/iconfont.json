@@ -1,0 +1,114 @@
+{
+  "id": "2003816",
+  "name": "my-hooks-app",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "基础图标字体",
+  "glyphs": [
+    {
+      "icon_id": "5199400",
+      "name": "操作",
+      "font_class": "caozuo",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "5199401",
+      "name": "查找",
+      "font_class": "chazhao",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "5199402",
+      "name": "单选",
+      "font_class": "danxuan",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "5199403",
+      "name": "多选框",
+      "font_class": "duoxuankuang",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "5199404",
+      "name": "打勾",
+      "font_class": "dagou",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "5199405",
+      "name": "单选选中",
+      "font_class": "danxuanxuanzhong",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "5199407",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "5199409",
+      "name": "多选框选中",
+      "font_class": "duoxuankuangxuanzhong",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "5199410",
+      "name": "回收",
+      "font_class": "huishou",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "5199423",
+      "name": "上箭头",
+      "font_class": "shangjiantou",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "5199424",
+      "name": "下箭头",
+      "font_class": "xiajiantou",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "5199426",
+      "name": "左箭头",
+      "font_class": "zuojiantou",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "5199427",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "5199429",
+      "name": "增加",
+      "font_class": "zengjia",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "5199430",
+      "name": "上传照片",
+      "font_class": "shangchuanzhaopian",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    }
+  ]
+}

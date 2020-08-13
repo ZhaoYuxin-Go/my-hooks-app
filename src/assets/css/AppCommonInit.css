@@ -1,0 +1,63 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {
+  margin:0;
+  padding:0;
+}
+a {
+  text-decoration: none;
+}
+ul,ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* 移动端图片边框   相当于  border:0 */
+img {   
+  vertical-align: top;
+}
+a,input,button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+/* -webkit-tap-highlight-color:rgba(0,0,0,0);透明度设置为0，去掉点击链接和文本框对象时默认的灰色半透明覆盖层(iOS)或者虚框(Android)  */
+input,textarea {
+  outline:none;
+  -webkit-appearance: none;
+}  
+body {
+  margin: 0;
+  -webkit-user-select: none;
+}
+/* 禁止移动端用户进行复制.选择. */
+body * {
+  -webkit-user-select: none;
+  font-family: Helvetica;
+}
+body {
+  -webkit-text-size-adjust: 100%;
+}
+/* 1px */
+/* .border-1px {
+  position: relative;
+}
+.border-1px:after {
+  position: absolute;
+  content: '';  
+  top: -50%;
+  bottom: -50%;
+  left: -50%;
+  right: -50%;
+  -webkit-transform: scale(0.5);
+  transform: scale(0.5);
+  border-top: 1px solid #666;
+}
+@media (-webkit-min-device-pixel-radio: 1.5), (min-device-pixel-radio: 1.5) {
+  border-1px::after {
+    -webkit-transform: scaleY(0.7);
+    transform: scaleY(0.7);
+   }
+}
+@media (-webkit-min-device-pixel-radio: 2), (min-device-pixel-radio: 2) {
+  border-1px::after {
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+  }
+} */

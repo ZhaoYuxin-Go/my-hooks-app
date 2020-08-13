@@ -1,12 +1,17 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import Header from './components/Header';
 import './App.css';
-import './test.scss';
 
 function App() {
+  const [title, setTitle] = useState("");
+
+  useEffect(() => {
+    setTitle(()=>'事件代办')
+  }, [])
+  
   return (
     <div className="App">
-      my-react-hooks
-      <p className="test">test</p>
+      <Header title={title} />
     </div>
   );
 }
